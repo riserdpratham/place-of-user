@@ -1,4 +1,4 @@
-# You must need to add the changes while raising the merge request
+# You must need to add the changes while raising the Pull request
 
 ## Format should be
 `[version bump up] - Date of PR raised followed by - changes in short`
