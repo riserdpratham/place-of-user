@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -9,6 +10,7 @@ import Users from "./user/pages/Users";
 import NewPlace from "./places/pages/NewPlace";
 import MainNavigation from "./shared/components/Navigation/MainNavigation";
 import UserPlaces from "./places/pages/UserPlaces";
+
 
 const App = () => {
 
