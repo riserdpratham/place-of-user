@@ -13,3 +13,6 @@
 - Added Side drawer styling and animation using react-transisiton
 - Added the flag of checking is mobile device
 - Added Button with custom styling
+
+[0.1.3] 19-March-2023
+- Modal / popup component added to the UI components for map loading
