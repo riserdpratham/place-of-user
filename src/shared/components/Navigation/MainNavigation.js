@@ -5,7 +5,7 @@ import SideDrawer from "./SideDrawer";
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
 import Backdrop from "../UIElements/Backdrop";
-import "./MainHeader.css";
+import "./MainNavigation.css";
 
 const MainNavigation = (props) => {
   const [drawerIsOpen, setDrawerIsOpen] = useState(false);
@@ -29,17 +29,19 @@ const MainNavigation = (props) => {
         </nav>
       </SideDrawer>
       <MainHeader>
-        <button
-          className="main-navigation__menu-btn"
-          onClick={openDrawerHandler}
-        >
-          <span />
-          <span />
-          <span />
-          <span />
-        </button>
+        {isMobileDevice ? (
+          <button
+            className="main-navigation__menu-btn"
+            onClick={openDrawerHandler}
+          >
+            <span />
+            <span />
+            <span />
+            <span />
+          </button>
+        ) : null}
         <h1 className="main-navigation__title">
-          <Link to="/">YourPlaces</Link>
+          <Link to="/">XPlaces</Link>
         </h1>
         {isMobileDevice ? null : (
           <nav className="main-navigation__header-nav">

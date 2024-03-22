@@ -6,13 +6,13 @@ const DUMMY_PLACES = [
   {
     id: "1",
     imageUrl:
-      "https://th.bing.com/th?id=OIP.9DfB7IDaOMv-4BG_klL5LwHaEK&w=333&h=187&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2",
-    title: "Beautiful Beach",
-    address: "123 Beach Street, Beach City",
+      "https://www.livemint.com/lm-img/img/2024/01/24/600x338/Ayodhya_Ram_Mandir_1706104723218_1706118544459.jpg",
+    title: "Ram Mandir",
+    address: "Shree Ram Janmabhoomi Mandir, Sai Nagar, Ayodhya, Uttar Pradesh 224123",
     creatorId: "user123",
     location: {
-      latitude: 37.7749,
-      longitude: -122.4194,
+      lat: 26.7956642,
+      lng: 82.1120295,
     },
   },
   {
@@ -23,8 +23,8 @@ const DUMMY_PLACES = [
     address: "456 Mountain Road, Mountain Town",
     creatorId: "user456",
     location: {
-      latitude: 47.6062,
-      longitude: -122.3321,
+      lat: 47.6062,
+      lng: -122.3321,
     },
   },
   {
@@ -35,8 +35,8 @@ const DUMMY_PLACES = [
     address: "789 City Street, Cityville",
     creatorId: "user789",
     location: {
-      latitude: 34.0522,
-      longitude: -118.2437,
+      lat: 34.0522,
+      lng: -118.2437,
     },
   },
 ];
