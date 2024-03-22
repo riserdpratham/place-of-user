@@ -17,7 +17,7 @@
 [0.1.4] 19-March-2023
 - Modal / popup component added to the UI components for map loading
 
-[0.1.5] 22-March-2023
+[0.2.0] 22-March-2023
 -  Integrate google maps
 - load and style the map in modal
 - Added the basic component input
